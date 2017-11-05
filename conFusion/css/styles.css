@@ -1,6 +1,6 @@
 .row-header {
   margin: 0px auto;
-  padding: 0px;
+  padding: 10px;
 }
 
 .row-content {
@@ -14,6 +14,11 @@
   background-color: #D1C4E9;
   margin:0px auto;
   padding: 20px 0px 20px 0px;
+}
+
+body{
+    padding:50px 0px 0px 0px;
+    z-index:0;
 }
 
 .jumbotron {
@@ -33,4 +38,19 @@ address{
   margin:0px auto;
   padding: 20px 0px 40px 0px;
   border-bottom: 1px ridge;
+}
+
+.navbar-light {
+  background-color: #D1C4E9;
+}
+
+.navbar-brand {
+    padding: 10px 6px;
+}
+
+.logo-img {
+  border-radius: 50%;
+  position: relative;
+  width: auto;
+  height: 30px;
 }
