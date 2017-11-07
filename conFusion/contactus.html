@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags always come first -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/bootstrap-social.css">
+
+  <title>Ristorante Con Fusion: About Us</title>
+
+</head>
+
+<body>
+  <!-- include header -->
+  <div id="header"></div>
+
+  <div class="container">
+    <div class="row">
+      <ol class="col-12 breadcrumb">
+        <li class="breadcrumb-item"><a href="./index.html">Home</a></li>
+        <li class="breadcrumb-item active">Contact Us</li>
+      </ol>
+      <div class="col-12">
+        <h3>Contact Us</h3>
+        <hr>
+      </div>
+    </div>
+
+    <div class="row row-content">
+      <div class="col-12">
+        <h3>Location Information</h3>
+      </div>
+      <div class="col-12 col-sm-4 offset-sm-1">
+        <h5>Our Address</h5>
+        <address style="font-size: 100%">
+		              121, Clear Water Bay Road<br>
+		              Clear Water Bay, Kowloon<br>
+		              HONG KONG<br>
+		              <i class="fa fa-phone"></i>: +852 1234 5678<br>
+		              <i class="fa fa-fax"></i>: +852 8765 4321<br>
+		              <i class="fa fa-envelope"></i>:
+                        <a href="mailto:confusion@food.net">confusion@food.net</a>
+		           </address>
+      </div>
+      <div class="col-12 col-sm-6 offset-sm-1">
+        <h5>Map of our Location</h5>
+      </div>
+      <div class="col-12 col-sm-11 offset-sm-1">
+        <div class="btn-group btn-group-sm" role="group" aria-label="Basic example">
+          <a role="button" class="btn btn-primary"><i class="fa fa-phone"></i> Call</a>
+          <a role="button" class="btn btn-info"><i class="fa fa-skype"></i> Skype</a>
+          <a role="button" class="btn btn-success"><i class="fa fa-envelope"></i> Email</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="row row-content">
+      <div class="col-12">
+        <h3>Send us your Feedback</h3>
+      </div>
+      <div class="col-12 col-md-9">
+        <form>
+          <div class="form-group">
+            <label for="fullName">Full Name</label>
+            <input type="text" class="form-control form-control-sm" id="fullname" aria-describedby="fullNameHelp" placeholder="LastName, FirstName">
+            <small id="fullNameHelp" class="form-text text-muted">Enter you lastname, firstname.</small>
+          </div>
+          <div class="form-group">
+            <label for="exampleInputEmail1">Email address</label>
+            <input type="email" class="form-control form-control-sm" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+          </div>
+          <div class="form-group">
+            <label for="telnum">Contact Tel.</label>
+            <div class="form-row">
+              <div class="input-group col-3">
+                <div class="input-group-addon form-control-sm">(</div>
+                <input type="tel" class="form-control form-control-sm" id="areacode" name="areacode" placeholder="Area code">
+                <div class="input-group-addon form-control-sm">)</div>
+              </div>
+              <div class="col">
+                <input type="tel" class="form-control form-control-sm" id="telnum" name="telnum" placeholder="Tel. number">
+              </div>
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="form-row">
+              <div class="form-check col-3">
+                <label class="form-check-label">
+                            <input type="checkbox" class="form-check-input form-control-sm" name="approve" value="">
+                            <strong>May we contact you?</strong>
+                        </label>
+              </div>
+              <div class="col">
+                <select class="custom-select mr-sm-2">
+                  <option>Tel.</option>
+                  <ption>Email</option>
+                </select>
+              </div>
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="form-row">
+              <div class="col">
+                <label for="feedback" class="col-form-label">Your Feedback</label>
+                <textarea class="form-control form-control-sm" id="feedback" name="feedback" rows="12"></textarea>
+              </div>
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="form-row">
+              <div class="col">
+                <button type="submit" class="btn btn-primary">Send Feedback</button>
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+      <div class="col-12 col-md">
+      </div>
+    </div>
+
+  </div>
+
+  <!-- include footer -->
+  <div id="footer"></div>
+
+  <!-- jQuery first, then Tether, then Bootstrap JS. -->
+
+  <script src="node_modules/jquery/dist/jquery.min.js"></script>
+  <!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script> -->
+  <!-- <script src="node_modules/tether/dist/js/tether.min.js"></script> -->
+  <!-- <script src="node_modules/popper.js/dist/popper.min.js"></script> -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+  <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+  <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script> -->
+
+  <!-- Include common header/footer -->
+  <script>
+    $(document).ready(function() {
+      $("#footer").load("footer.html");
+      $("#header").load("header.html");
+    });
+  </script>
+
+</body>
+
+</html>

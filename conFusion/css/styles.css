@@ -44,6 +44,16 @@ address{
   background-color: #D1C4E9;
 }
 
+.navbar-nav > a:hover,
+.navbar-nav > a:focus {
+    color: #fff;
+    background: #9575CD;
+}
+
+/*.navbar-nav .open .dropdown-menu > li > a:hover {
+    color:#000000;
+}*/
+
 .navbar-brand {
     padding: 10px 6px;
 }
